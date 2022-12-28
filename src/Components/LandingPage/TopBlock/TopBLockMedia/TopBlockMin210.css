@@ -1,0 +1,36 @@
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .TopBlock__img {
+        height: 150px;
+    }
+    .TopBlock__item-content-text {
+        width: 100px;
+        top: 60px;
+        left: 25px;
+        font-size: 8px;
+        line-height: 93px;
+    }
+    .TopBlock__item-content-button {
+        bottom: 35px;
+        font-size: 5px;
+        width: 30px;
+        height: 10px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) { 
+    .TopBlock__img {
+        height: 200px;
+    }
+    .TopBlock__item-content-text {
+        width: 200px;
+        top: 90px;
+        left: 25px;
+        font-size: 13px;
+    }
+    .TopBlock__item-content-button {
+        bottom: 35px;
+        font-size: 7px;
+        width: 40px;
+        height: 15px;
+    }
+}

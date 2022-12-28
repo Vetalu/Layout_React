@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) and (max-width: 1490px) {
+    .BottomBlock {
+        height: 864px;
+    }
+    .BottomBlock__item-text {
+        padding: 2% 2% 0 4%;
+        font-size: 46px;
+    }
+    .BottomBlock__item-flex-container {
+        justify-content: space-between;
+        margin: 50px 10px 25px 10px ;
+    }
+    .BottomBlock__item {
+        width: 30%;
+        margin-bottom: 25px;
+    }
+    .item-block-sizeTable {
+        font-size: 12px;
+        padding: 5px 13px;
+        margin: 25px 2%;
+    }
+    .block-info-flex-container-item-name {
+        font-size: 22px;
+    }
+    .block-info-flex-container-item-price {
+        font-size: 18px; 
+        line-height: 37px; 
+    }
+    .item-block-discount {
+        bottom: 170px;
+    }
+    li {
+        font-size: 15px;
+    }
+    .item-price-number {
+        font-size: 18px;
+    }
+}

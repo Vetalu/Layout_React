@@ -1,0 +1,64 @@
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .Header__item-flex-top-space {
+        top: 10px;
+    }
+    .Header__item-discount {
+        position: absolute;
+        height: 10px;
+        font-size: 5px;
+    }
+    .item-discount-info-border {
+        padding: 0px 5px;
+    } 
+    .item-discount-cross-sign-size {
+        width: 5px;
+        margin-left: 50px;
+    }
+    .item-discount-cross-sign {
+        right: 10px;
+    }
+    .items-flex-desk {
+        padding: 4% 2%;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .items-flex-nav-extra-width {
+        width: 25px;
+    }
+    .items-flex-nav {
+        font-size: 6px;
+        width: 25%;
+        margin-right: 5px;
+    }
+    .items-flex-login {
+        margin-right: 5px;
+    }
+    .items-flex-login-design {
+        font-size: 5px;
+        padding: 1%;
+    }
+    .items-login-icon-size {
+        width: 10px;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) { 
+    .item-discount-cross-sign {
+        right: 20px;
+    }
+    .items-flex-desk {
+        margin-right: 10px;
+    }
+    .Header__container{
+        width: 40%;
+        font-size: 5px;
+    }
+    .items-flex-login {
+        margin-right: 15px;
+    }
+    .items-login-icon-size {
+        width: 10px;
+        margin-bottom: 0;
+    }
+}

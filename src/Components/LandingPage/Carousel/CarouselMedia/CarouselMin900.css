@@ -1,0 +1,21 @@
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .item-flex-block {
+        margin-bottom: 50px;
+    }
+    .Carousel__item-flex-container {
+        margin-top: 550px;
+        padding: 106px 30px 0;
+    }
+    .item-brand-text {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 985px) and (max-width: 1200px) {
+    .Carousel__item-flex-container {
+        margin-top: 0px;
+        padding: 106px 30px 0;
+    }
+    
+}

@@ -1,0 +1,24 @@
+@media screen and (min-width: 500px) and (max-width: 900px) { 
+    .TopBlock__img {
+        height: 300px;
+    }
+    .TopBlock__item-content-text {
+        width: 200px;
+        top: 135px;
+        left: 55px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .TopBlock__item-content-button {
+        bottom: -10px;
+        font-size: 13px;
+        width: 60px;
+        height: 30px;
+    }
+} 
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .TopBlock__item-content-text {
+        left: 75px;
+    }
+}

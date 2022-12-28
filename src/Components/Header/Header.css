@@ -1,0 +1,93 @@
+@import url(./HeaderMedia/HeaderMin1490.css);
+@import url(./HeaderMedia/HeaderMin1230.css);
+@import url(./HeaderMedia/HeaderMin900.css);
+@import url(./HeaderMedia/HeaderMin500.css);
+@import url(./HeaderMedia/HeaderMin210.css);
+
+.Header {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+.item-discount-cross-sign{
+    position: absolute;
+}
+
+.Header__item-flex {
+    background-color: rgba(0, 0, 0, 0, 19.54%);
+    position: absolute;
+    left: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Header__item-flex-background{
+    background-color: #FFF;
+}
+
+.setColorActive {
+    color: #F9F9F9;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.setColorUnactive {
+    color: #260719;
+}
+
+.Header__container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Header__item-discount {
+    display: inline-flex;
+    color: #F9F9F9;
+    width: 100%;
+    background-color: #260719;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__item-discount__inActive {
+    display: none;
+} 
+.item-discount-info-border {
+    margin-left: 30px;
+    border-radius: 50px;
+    background: rgba(255, 164, 205, 0.2);
+} 
+
+.items-flex-nav {
+    text-align: center;
+}
+
+.items-flex-desk {
+    font-style: normal;
+    font-weight: 700;
+    background-color: #F94125;
+}
+
+.items-flex-nav-shop {
+    background: rgba(38, 7, 25, 0.17);
+    border: 1px solid #F9F9F9;
+    border-radius: 41px;
+    padding: 1% 2%;
+}
+.items-flex-login-design {
+    text-align: center;
+    border: 1px solid #BAB0B6;
+}
+
+.items-flex-login-design-Active {
+    border: 1px solid #BAB0B6;
+}
+
+.items-flex-login-design-Inactive {
+    border: 1px solid #F9F9F9;
+}

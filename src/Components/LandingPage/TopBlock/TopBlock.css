@@ -1,0 +1,31 @@
+@import url(./TopBLockMedia/TopBlockMin210.css);
+@import url(./TopBLockMedia/TopBlockMin500.css);
+@import url(./TopBLockMedia/TopBlockMin900.css);
+@import url(./TopBLockMedia/TopBlockMin1230.css);
+@import url(./TopBLockMedia/TopBlockMin1490.css);
+
+.TopBlock__img {
+    background-image: url(../../../Image/Components/LandingPage/TopBlock/TopBlock_Background.svg);
+}
+
+.TopBlock__item-content-text {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: 1;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.TopBlock__item-content-text-color {
+    display: contents;
+    color: #F94125;
+}
+
+.TopBlock__item-content-button {
+    position: relative;
+    text-align: center;
+    line-height: 2;
+    background: #F94125;
+}

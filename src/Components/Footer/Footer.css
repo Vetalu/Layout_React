@@ -1,0 +1,106 @@
+@import url(./FooterMedia/FooterMin210.css);
+@import url(./FooterMedia/FooterMin500.css);
+@import url(./FooterMedia/FooterMin900.css);
+@import url(./FooterMedia/FooterMin1230.css);
+@import url(./FooterMedia/FooterMin1490.css);
+
+.Footer {
+    width: 100%;
+    border-top: 1px solid #CFC9CC;
+    border-bottom: 1px solid #CFC9CC;
+}
+
+.Footer__item-flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Footer__item-info {
+    display: flex;    
+    width: 100%;
+}
+
+.item-email {
+    width: 1fr;
+}
+
+.item-email-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+}
+
+.item-email-info{
+    margin-bottom: 18px;
+}
+
+.item-email-info > input {
+    border: 0;
+    color: #260719;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #CFC9CC;
+}
+
+.item-email-info > button {
+    border: 1px solid #F94125;
+    background-color: #F94125;
+    border-radius: 0px 3px 3px 0px;
+    color: #fff;
+}
+.item-email-info > span {
+    vertical-align: text-bottom;
+}
+
+.item-email-privacy {
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.item-about {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-about > div {
+    width: 35%;
+    margin-bottom: 21px;
+}
+
+.item-about-text-bold {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 139%; 
+}
+
+.item-link {
+    display: inline-flex;
+}
+
+.item-link-instagram {
+    background-image: url("../../Image/Components/Footer/Link_image/Instagram.svg");
+}
+.item-link-facebook {
+    background-image: url("../../Image/Components/Footer/Link_image/Facebook.svg");
+}
+.item-link-twitter {
+    background-image: url("../../Image/Components/Footer/Link_image/Twitter.svg");
+}
+.item-link-youtube {
+    background-image: url("../../Image/Components/Footer/Link_image/Youtube.svg");
+}
+
+.Footer__item-copyright{
+    display: flex;
+    color: #260719;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px ;
+    font-weight: 400;
+    line-height: 140%;
+    width: 100%;
+    border-top: 1px solid #CFC9CC;
+}

@@ -1,0 +1,65 @@
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .Footer__item-info {
+        justify-content: space-between;
+        margin: 47px 58px;
+    }
+    .item-about {
+        margin-top: 15px;
+    }
+    .item-email-text {
+        margin-bottom: 25px;
+    }
+    .item-email-info > button {
+        width: 45px;
+        height: 17px;
+        font-size: 10px;
+    }
+    .item-email-info {
+        margin-bottom: 18px;
+    }
+    .item-email-privacy {
+        font-size: 13px;
+    }
+    .item-about > div {
+        width: 35%;
+        margin-bottom: 15px;
+        font-size: 10px;
+    } 
+    .item-email-info > input {
+        width: 120px;
+        height: 42px;
+        font-size: 10px;
+    }
+    .item-link {
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+    .item-link > div {
+        margin-right: 18px;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+    .item-email {
+        margin-bottom: 10px;
+    }
+    .item-email-info > button { 
+        width: 74px;
+        height: 44px;
+        font-size: 10px;
+    }
+    .Footer__item-copyright {
+        font-size: 13px; 
+        height: 82px;
+        justify-content: flex-end;
+    }
+    .Footer__item-copyright > div {
+        margin-right: 10px;
+    } 
+}
+
+@media screen and (min-width: 970px) {
+    .Footer {
+        margin-top: 0;
+    }
+}

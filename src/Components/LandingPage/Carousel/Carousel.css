@@ -1,0 +1,61 @@
+@import url(./CarouselMedia/CarouselMin210.css);
+@import url(./CarouselMedia/CarouselMin500.css);
+@import url(./CarouselMedia/CarouselMin900.css);
+@import url(./CarouselMedia/CarouselMin1230.css);
+@import url(./CarouselMedia/CarouselMin1490.css);
+
+.Carousel {
+    background-color: #f9f9f9;
+    width: 100%;
+    color: #260719;
+}
+
+.Carousel__item-flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.item-flex-block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.item-brand-text {
+    width: 709px;
+    font-weight: 400;
+    line-height: 112%;
+}
+
+.item-carousel {
+    width: 189px;
+    height: 91px;
+    margin: 10px;
+}
+
+.item-carousel > img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-carousel-arrow {
+    width: 25px;
+    height: 100%;
+    
+}
+
+.item-carousel-arrow > img {
+    width: 100%;
+    height: 100%;
+}

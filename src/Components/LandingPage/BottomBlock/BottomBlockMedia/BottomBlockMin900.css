@@ -1,0 +1,40 @@
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .BottomBlock {
+        height: 1400px;
+    }
+    .BottomBlock__item-text {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .BottomBlock__item-flex-container {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 50px 10px 25px 10px ;
+    }
+    .BottomBlock__item {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+    .item-block-sizeTable {
+        font-size: 12px;
+        padding: 4px 8px;
+        margin: 10px 2%;
+    }
+    .block-info-flex-container-item-name {
+        font-size: 18px;
+    }
+    .block-info-flex-container-item-price {
+        font-size: 18px;
+    }
+    .item-block-discount {
+        bottom: 185px;
+    }
+    li {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .BottomBlock {
+        height: 864px;
+    }
+}

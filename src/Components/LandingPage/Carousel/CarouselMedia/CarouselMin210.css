@@ -1,0 +1,5 @@
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .Carousel {
+        display: none;
+    }
+}
